@@ -1,0 +1,98 @@
+.contener{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1{
+    margin-left: 141px;
+    font-size: 68px;
+    font-weight: 700;
+}
+header nav ul{
+    z-index: 2;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 141px;
+   
+}
+header ul li{
+    margin-top: 44px;
+}
+ul button{
+    padding: 20px 55px 22px 51px;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: white;
+    margin-top: 25px;
+}
+header{
+    position: relative;
+}
+header .line{
+    z-index: 1;
+    top: 72px;
+    left: 1150px;
+    position: absolute;
+    width: 153px;
+    height: 3px;
+    background: rgb(185,154,255);
+    background: linear-gradient(128deg, rgba(185,154,255,1) 0%, rgba(114,161,255,1) 40%, rgba(134,159,255,1) 100%);
+}
+.header_bootom_right {
+    z-index: 1;
+    margin-top: 209px;
+    margin-left: 141px;
+}
+.header_bootom_right h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.header_bootom_right .txt{
+    margin-top: 67px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 3;
+}
+.header_bootom_right .btn1{
+    margin-top: 60px;
+    width: 276px;
+    padding: 19px 60px 22px 57px;
+    font-size: 24px;
+    border-radius: 100px;
+    color: white;
+    background: rgb(185,154,255);
+    background: linear-gradient(128deg, rgba(185,154,255,1) 0%, rgba(114,161,255,1) 40%, rgba(134,159,255,1) 100%);
+}
+header{
+    position: relative;
+}
+.header_bottom img{
+    position: absolute;
+}
+.airpods{
+    right: -217px;
+    top: 101px;
+    z-index: 1;
+}
+.grup_65_mrgvalebi{
+    top:130px;
+    right: 40px;
+    z-index: 1;
+}
+.playe_icon{
+    top: -202px;
+    right: -200px;
+}
