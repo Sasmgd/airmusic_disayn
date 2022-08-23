@@ -2,10 +2,11 @@
     max-width: 1920px;
     width: 100%;
     margin: 0px auto;
-    font-family: 'Poppins', sans-serif;
+   
 }
 body{
-    overflow: hidden;
+   overflow-x: hidden;
+   font-family: 'Poppins', sans-serif;
 }
 header nav{
     width: 100%;
@@ -48,8 +49,8 @@ header .line{
     position: absolute;
     width: 153px;
     height: 3px;
-    background: rgb(185,154,255);
-    background: linear-gradient(128deg, rgba(185,154,255,1) 0%, rgba(114,161,255,1) 40%, rgba(134,159,255,1) 100%);
+    background: rgb(196,152,255);
+    background: linear-gradient(128deg, rgba(196,152,255,1) 20%, rgba(159,156,255,1) 65%, rgba(163,156,255,1) 100%);
 }
 .header_bootom_right {
     z-index: 1;
@@ -61,6 +62,8 @@ header .line{
     font-weight: 700;
 }
 .header_bootom_right .txt{
+    position: relative;
+    z-index: 1;
     margin-top: 67px;
     font-size: 16px;
     font-weight: 300;
@@ -73,8 +76,9 @@ header .line{
     font-size: 24px;
     border-radius: 100px;
     color: white;
-    background: rgb(185,154,255);
-    background: linear-gradient(128deg, rgba(185,154,255,1) 0%, rgba(114,161,255,1) 40%, rgba(134,159,255,1) 100%);
+    background: rgb(196,152,255);
+    background: linear-gradient(128deg, rgba(196,152,255,1) 20%, rgba(159,156,255,1) 65%, rgba(163,156,255,1) 100%);
+
 }
 header{
     position: relative;
@@ -95,4 +99,45 @@ header{
 .playe_icon{
     top: -202px;
     right: -200px;
+}
+.Greatest{
+    
+    margin-top: 292px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(196,152,255);
+    background: linear-gradient(128deg, rgba(196,152,255,1) 20%, rgba(159,156,255,1) 65%, rgba(163,156,255,1) 100%);
+
+}
+.greantests{
+    margin-top: 5px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/group.png");
+}
+.Greatest h1{
+    color: white;
+    margin-top: 196px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.Greatest p{
+    text-align: center;
+    margin-bottom: 432px;
+    margin-top: 59px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 4;
+}
+.Greatest{
+    position: relative;
+}
+.Greatest img{
+    top: 380px;
+    position: absolute;
 }
