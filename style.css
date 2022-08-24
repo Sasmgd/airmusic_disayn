@@ -70,7 +70,7 @@ header .line{
     font-weight: 300;
     line-height: 3;
 }
-.header_bootom_left .btn1{
+.btn1{
     margin-top: 60px;
     width: 276px;
     padding: 19px 60px 22px 57px;
@@ -144,6 +144,7 @@ header{
     position: relative;
 }
 .Greatest img{
+    z-index: 1;
     top: 380px;
     position: absolute;
 }
@@ -222,4 +223,124 @@ header{
     right: 1150px;
     position: absolute;
     
+}
+.Order_Now{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 134px;
+}
+.right_order{
+    
+    width: 916px;
+    height: 1018px;
+    background-image: url("./img/Path\ 37.png");
+}
+.order_img{
+    margin-top: 150px;
+    margin-left: 220px;
+    width: 536px;
+    height: 706px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px #0C2072;
+}
+.order_img .grup34{
+    width: 150px;
+    margin-left: 193.4px;
+    margin-top: 54px;
+}
+.right_order {
+    position: relative;
+}
+.path{
+    position: absolute;
+}
+.path78{
+    left: 665px;
+}
+.path79{
+    top: 240px;
+    left: 848px;
+}
+.path1{
+    top: 770px;
+    left: 500px;
+
+}
+.left_order{ 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.left_order h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 220px;
+
+}
+.left_order .txt{
+    margin-top: 40px;
+    line-height: 3;
+    width: 720px;
+    /* margin-right: 100px; */
+}
+.color{ 
+    margin-top: 46px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.color div{
+    margin-left: 27px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border:1px solid black;
+    
+}
+.color .black{
+    background-color: black;
+    margin-left: 36px;
+}
+.color .white{
+    background-color: white;
+}
+.color .orang{
+    background-color: orangered;
+}
+.color .blue{
+    background-color: #72A1FF;
+}
+.color span{
+    font-size: 22px;
+    font-weight: 700;
+}
+.dolare{ 
+    margin-top: 32px;
+    width: 283px;
+    display: flex;
+    justify-content: space-between;
+}
+.dolare .quantity{
+    padding: 4px 19.6px 10px 26px;
+    font-size: 37px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.dolare .price{
+    font-size: 58px;
+    font-weight: 700;
+}
+.imge{
+    margin-top: 165.7px;
+    display: flex;
+    justify-content: center;
+}
+.imge_right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
