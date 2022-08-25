@@ -245,7 +245,7 @@ header{
     justify-content: center;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px 5px #0C2072;
+    box-shadow: 1px 1px 5px 5px rgb(12,32,114,0.1);
 }
 .order_img .grup34{
     width: 150px;
@@ -343,4 +343,75 @@ header{
 .imge_right{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.faq{
+    width: 100%;
+    margin-top:207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.faq p{
+    font-size: 16px;
+    font-weight: 300px;
+    text-align: center;
+    line-height: 2;
+    margin-top: 19px;
+}
+.faq .inout{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 27px;
+}
+.faq .inout .input{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 540px;;
+    display: flex;
+    align-items: center;
+    padding-top:12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 23px;
+    justify-content: flex-start;
+}
+.input .line{
+    width: 1px;
+    height: 43px;
+    background-color: black;
+    margin-left: 20.8px;
+    margin-right:16.6px;
+}
+.input .icon{
+    font-size: 40px;
+    transform: rotate(90deg);
+}
+.inout .open{
+    display: flex;
+    flex-direction: column;
+}
+.open_top{
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12.5px;
+}
+.open p{
+    width: 100%;
+    font-size: 14px;
+    padding: 31px 40px 18px 6px;
+}
+.open .icon{
+   
+    color: rgb(196,152,255);
+    transform: rotate(270deg);
+}
+.inout .heigt{
+    height: 70px;
 }
