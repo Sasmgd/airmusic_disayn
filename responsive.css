@@ -130,7 +130,7 @@
     .faq .inout .input{
         width: 430px;
     }
-    .faq .shape{
+    .faq .shapes{
         width: 0px;
         height: 0px;
         position: absolute;
@@ -294,4 +294,278 @@
     }
 }
 
-/* @media(max-width:1) */
+@media (min-width: 992px) and (max-width: 1024px)
+{
+    header{
+        width: 1020px;
+        display:flex;
+        justify-content: space-between;
+    }
+    header nav h1{
+        z-index: 4;
+        font-size: 18px;
+        margin-left: 12px;
+    }
+    header nav ul{
+        width: 50%;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 12px;
+        margin-right: 10px;
+        
+    }
+    header nav ul li{
+        margin-top: 32px;
+        margin-right: 10px;
+    }
+    header nav ul button{
+        margin-top: 20px;
+        padding: 15px;
+    }
+    header nav .line{
+        top: 50px;
+        left:590px;
+        width: 100px;
+    }
+    .header_bottom{
+        margin-left: 5%;
+        overflow:hidden;
+    }
+    .header_bottom .airpods{
+        top: 50px;
+        left: 500px;
+        width: 600px;
+        height: 600px;
+        z-index: 2;
+    }
+    .header_bottom .grup_65_mrgvalebi{
+        z-index: 2;
+        left: 500px;
+        top: 50px;
+        width: 700px;
+        height: 700px;
+    }
+    header{
+        position: relative;
+    }
+    .header_bottom .playe_icon{
+        z-index: 1;
+        width: 700px;
+        height: 700px;
+        top: -220px;
+        left: 500px;
+    }
+    .header_bootom_left{
+        margin-left: 25px;
+        margin-bottom: 200px;
+    }
+    .header_bootom_left h1{
+        font-size: 40px;
+    }
+    .header_bootom_left{
+        margin-top: 180px;
+        margin-left: 15px;
+    }
+    .header_bootom_left .txt{
+        width: 460px;
+    }
+    .Shape{
+        width: 400px;
+        height: 400px;
+        top: 550px;
+        left: -200px;
+        
+    }
+    .Greatest{
+        margin-top: 0px;
+    }
+    .Greatest h1{
+        margin-top: 100px;
+    }
+    .Greatest .p{
+        font-size: 12px;
+        margin-bottom: 200px;
+    }
+    .Greatest img{
+        top: 300px;
+        width: 400px;
+        height: 400px;
+    }
+    .Features{
+        overflow: hidden;
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+    .Features h1{
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+    .Features .cards{
+        margin-left: 2px;
+        margin-top: 100px;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+    .Features .card{
+        margin-left: 40px;
+        width: 450px;
+
+    }
+    .Features .card img{
+        margin-top: 55px;
+    }
+    .Features .card h2{
+        font-size: 35px;
+        margin-top: 47px;
+        margin-left: 20px;
+    }
+    .Features .card p{
+        line-height: 2.5;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 23px;
+        font-size: 14px;
+    }
+    .Features .img{
+        top: 0.1px;
+        width: 400px;
+        height: 400px;
+        
+    }
+    
+    .imgs{
+        height: 400px;
+        width: 400px;
+        top: 1600px;
+        right: 600px;
+    }
+    .faq p{
+        font-size: 16px;
+        font-weight: 300px;
+        text-align: center;
+        line-height: 2;
+        margin-top: 19px;
+    }
+    .faq .inout{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 27px;
+}
+    }
+    .faq .inout .input{
+        width: 430px;
+    }
+    .faq{
+        overflow: hidden;
+    }
+    .faq .shapes{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        left: 800px;
+        top: 700px;
+    }
+    .Order_Now{
+        overflow: hidden;
+        display: flex;
+        justify-content:flex-start;
+        margin-top: 134px;
+    }
+    .right_order{
+        margin-top: 50px;
+        width: 800px;
+        height: 800px;
+        background-image: url("./img/Path\ 37.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .order_img{
+        margin-top: 150px;
+        margin-left: 150px;
+        width: 300px;
+        height: 400px;
+    }
+    .order_img .grup34{
+        width: 150px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .path78{
+        left: 405px;
+        top: -50px;
+    }
+    .path79{
+        top: 150px;
+        left: 500px;
+    }
+    .path1{
+        width: 400px;
+        height: 200px;
+        top: 500px;
+        left: 200px;
+    
+    }
+    .left_order{ 
+        margin-left: 40px;
+    }
+    .left_order .txt{
+        margin-top: 40px;
+        line-height: 1.6;
+        width:400px;
+    }
+    .imge{
+        margin-top: 120.7px;
+    }
+    .imge_left img{
+        width: 520px;
+    }
+    
+    .imge_right{
+        width: 1022px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .imge_right img{
+        width: 250px;
+        height: 210px;
+    }
+    .forms .inputs input{
+        width: 450px;
+        height: 68px;
+        border-radius: 20px;
+    }
+    .full input{
+        width: 900px;
+        margin-left: 20px;
+    }
+    footer{
+        margin-top: 137px;
+        display: flex;
+    }
+    footer .left{
+        display: flex;
+        align-items: flex-end;
+    }
+    footer .left img{
+        width: 200px;
+        height: 200px;
+    }
+    footer .airpod{
+        width: 216px;
+        height: 216px;
+    }
+    footer .path82{
+        position: absolute;
+        top: 250px;
+        left: 0px;
+    }
+    footer .lines{
+        top:200px;
+        left: 1px;
+        position: absolute;
+        width: 450px;
+        height: 250px;
+    }
+}

@@ -32,6 +32,9 @@ header nav ul{
 header ul li{
     margin-top: 44px;
 }
+header ul button:hover{
+    background: linear-gradient(128deg, rgba(196,152,255,1) 20%, rgba(159,156,255,1) 65%, rgba(163,156,255,1) 100%);
+}
 ul button{
     padding: 20px 55px 22px 51px;
     border: 1px solid black;
@@ -420,7 +423,7 @@ header .line{
 .faq{
     position: relative;
 }
-.faq .shape{
+.faq .shapes{
     position: absolute;
     left: 1510px;
     top: 420px;
